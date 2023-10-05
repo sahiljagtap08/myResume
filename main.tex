@@ -1,0 +1,218 @@
+%-------------------------
+% Resume in Latex
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Sahil Jagtap}\\ {Fairfax, Virginia}\\ \vspace{1pt}
+    \small +1 703-826-3790 $|$ \href{mailto:sjagtap2@gmu.edu}{\underline{sjagtap2@gmu.edu}} $|$ 
+    \href{https://linkedin.com/in/sahiljagtap08}{\underline{linkedin.com/in/sahiljagtap08}} $|$
+    \href{https://github.com/sahiljagtap08}{\underline{github.com/sahiljagtap08}}
+    $|$
+    \href{https://sahiljagtap.com}{\underline{sahiljagtap.com}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {George Mason University - Honors}{Fairfax, VA}
+      {Bachelor of Science in Computer Science}{Aug. 2022 -- May 2026}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Microsoft $|$ NASA}{May 2023 ‑- June 2023}
+      {Microsoft Azure Space ‑ 5 Weeks Internship Program}{Remote \& Arlington, VA}
+      \resumeItemListStart
+       \resumeItem {Set up a planetary computer environment to facilitate efficient data processing and analysis.}
+       \resumeItem {Created a high-level paper-based architecture of the application, outlining the key components.}
+        \resumeItem {Ingested Sentinel-1 data from the planetary computer platform to acquire relevant satellite imagery.}
+        \resumeItem {Reviewed existing algorithms and techniques to inform the design of the detection model.}
+        \resumeItem { Selected features and metrics, trained the model using Python and Jupyter Notebook.}
+        \resumeItem {Trained the model using the prepared data, fine-tuning its parameters for optimal performance.}
+        \resumeItem {Deployed the planetary computer application, ensuring its scalability and efficient utilization of resources.}
+      \resumeItemListEnd
+      
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+    \resumeSubheading
+      {Information Technology Intern}{May. 2023 -- Aug. 2023}
+      {Precise Systems Inc. - Summer Internship 2023}{Manassas, VA}
+      \resumeItemListStart
+         \resumeItem {Collaborated with the IT team at Precise Systems to support and enhance the company's website, playing a key role in improving its functionality and user experience.}
+        \resumeItem {Assisted in the development and maintenance of the company website, utilizing web technologies such as HTML, CSS, and JavaScript to implement new features and resolve issues.}
+        \resumeItem {Conducted thorough testing and quality assurance to identify and fix bugs or errors in the website.}
+        \resumeItem {Played a vital role in designing and deploying a scalable and reliable database infrastructure for the project.}
+    \resumeItemListEnd
+
+    \resumeSubheading
+      {President}{April 2023 -- Present}
+      {DSCS-GMU, Chapter at the NSDC - Columbia University}{Fairfax, VA}
+      \resumeItemListStart
+        \resumeItem {Established strong collaborations with academic departments, industry professionals, and external organizations including the National Student Data Corps at \emph{Columbia University}, facilitating internship opportunities, research partnerships, and networking avenues for society members.}
+        \resumeItem {Developed and executed a comprehensive strategy to drive awareness and engagement, resulting in a significant increase in membership and active participation within the \emph{Data Science and Computation Society.} }
+        \resumeItem {Organized and curated a series of impactful events, including data science workshops, seminars, and guest speaker sessions, providing valuable learning opportunities and industry insights to members.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{HackMIT - 2nd Place (TerraAPI Track Prize Winner} $|$ \emph{Next.js, Firebase, TerraAPI, GPT-4, Git}}{Sep. 2022}
+          \resumeItemListStart
+       \resumeItem {Utilized Next.js for the frontend development, creating an interactive and engaging user interface.}
+    \resumeItem {Implemented Firebase for the backend, ensuring secure and efficient data storage and retrieval.}
+    \resumeItem {Integrated TerraAPI to access and transform daily activity and health data into a virtual character.}
+    \resumeItem {Leveraged GPT-4 and DALL·E 2 to provide a dynamic and personalized character experience.}
+    \resumeItem {Incorporated mathematical algorithms to calculate and reflect real-life health and energy levels in the character.}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Metro-Rail-App} $|$ \emph{C++, Graph, Heap, Dijkstra's Algorithm, BFS, DFS.}}{July 2023}
+          \resumeItemListStart
+           \resumeItem{Developed a C++ program to assist commuters in the Metro system by providing shortest routes.}
+\resumeItem{Implemented the project using Graph and Heap data structures, with nodes representing metro stations and edges representing distances and costs between stations.}
+\resumeItem{Utilized Dijkstra algorithms, BFS, and DFS to determine the shortest path between source and destination.}
+\resumeItem{Demonstrated proficiency in C++ programming and data structures to solve real-world transportation problems.}
+
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: C/C++, Java, Python, SQL(MySQL, Postgres), JavaScript, HTML/CSS} \\
+     \textbf{Frameworks \& Libraries}{: Express.js, React, Node.js, Flask, JUnit, TailwindCSS, Pandas, NumPy, Matplotlib} \\
+     \textbf{Developer Tools}{: Git, GitHub, Linux, Jupyter, Docker, VS Code, PyCharm, IntelliJ} \\
+      \textbf{Computer Science (Core)}{: OOPs, Data Structures, Algorithms, Mathematics, OS, DBMS, Computer Networking.}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
